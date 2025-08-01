@@ -50,8 +50,8 @@ def convert_jpg_to_pdf(image_paths, output_path):
             append_images=images[1:] if len(images) > 1 else []
         )
         
-        print(f"✅ PDF файл создан: {output_path}")
-        print(f"📄 Страниц в PDF: {len(images)}")
+        print(f"PDF файл создан: {output_path}")
+        print(f"Страниц в PDF: {len(images)}")
         return True
         
     except Exception as e:
